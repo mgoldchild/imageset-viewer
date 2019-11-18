@@ -89,7 +89,7 @@ class App:
 
         self.scrollbar = tk.Scrollbar(master, orient=tk.VERTICAL)
 
-        self.listbox = tk.Listbox(master, yscrollcommand=self.scrollbar.set, width=100)
+        self.listbox = tk.Listbox(master, yscrollcommand=self.scrollbar.set, width=50)
         self.listbox.grid(row=1, column=2, sticky=tk.N + tk.S)
 
         self.im_names = []
